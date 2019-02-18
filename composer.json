@@ -53,8 +53,8 @@
     },
     "scripts": {
         "si": [
-            "drush si minimal --account-name=admin --account-mail=aron.beal.biz@gmail.com --site-mail=aron.beal.biz@gmail.com --account-pass=123456 --config-dir=../config/sync",
-            "drush en -y devel jsonapi jsonapi_extras cors simple_oauth"
+            "drush si --existing-config --account-name=admin --account-mail=aron.beal.biz@gmail.com --site-mail=aron.beal.biz@gmail.com --account-pass=123456 --config-dir=../config/sync",
+            "drush en -y devel"
         ],
         "pre-install-cmd": [
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
