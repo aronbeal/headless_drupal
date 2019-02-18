@@ -1,11 +1,11 @@
-uuid: 252819ac-d0bb-4d8f-8e59-e3831164b8e0
+uuid: c2049e5d-5bc2-4c24-a771-86e713a3ccf6
 name: 'Drush Site-Install'
 mail: admin@example.com
 slogan: ''
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
